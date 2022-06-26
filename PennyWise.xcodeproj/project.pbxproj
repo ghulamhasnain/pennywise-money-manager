@@ -7,26 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D006083223161DD00D46C58 /* CustomWidgetClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D006082223161DD00D46C58 /* CustomWidgetClasses.swift */; };
+		8D1D85522243D8A1001C1674 /* TransactionCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D85512243D8A1001C1674 /* TransactionCommentViewController.swift */; };
+		8D379D8321C3FAE600706147 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5003D821BBE0570084930E /* TodayViewController.swift */; };
+		8D5003D621BBE0570084930E /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5003D521BBE0570084930E /* NotificationCenter.framework */; };
+		8D5003E021BBE0570084930E /* PennyWise Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8D5003D321BBE0560084930E /* PennyWise Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8D5003E521BCFA880084930E /* PennyWise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3032221BAB1C8006012A8 /* PennyWise.xcdatamodeld */; };
+		8D5003E721BCFAB30084930E /* CustomClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3033021BAB27E006012A8 /* CustomClasses.swift */; };
+		8D58896E22357DD500A26391 /* TransactionCategoryAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D58896D22357DD500A26391 /* TransactionCategoryAddViewController.swift */; };
+		8D99B4CA223FD002001B87A7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D99B4C9223FD002001B87A7 /* AccountViewController.swift */; };
+		8D99B4CC223FD452001B87A7 /* AccountOpeningBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D99B4CB223FD452001B87A7 /* AccountOpeningBalanceViewController.swift */; };
 		8DD3031C21BAB1C8006012A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3031B21BAB1C8006012A8 /* AppDelegate.swift */; };
-		8DD3031E21BAB1C8006012A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3031D21BAB1C8006012A8 /* ViewController.swift */; };
+		8DD3031E21BAB1C8006012A8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3031D21BAB1C8006012A8 /* MainViewController.swift */; };
 		8DD3032121BAB1C8006012A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD3031F21BAB1C8006012A8 /* Main.storyboard */; };
 		8DD3032421BAB1C8006012A8 /* PennyWise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3032221BAB1C8006012A8 /* PennyWise.xcdatamodeld */; };
 		8DD3032621BAB1CA006012A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD3032521BAB1CA006012A8 /* Assets.xcassets */; };
 		8DD3032921BAB1CA006012A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD3032721BAB1CA006012A8 /* LaunchScreen.storyboard */; };
+		8DD3033121BAB27E006012A8 /* CustomClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3033021BAB27E006012A8 /* CustomClasses.swift */; };
+		8DD3033321BAB2A7006012A8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3033221BAB2A7006012A8 /* CoreDataManager.swift */; };
+		8DD3034A21BAB305006012A8 /* AccountsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3033521BAB305006012A8 /* AccountsListViewController.swift */; };
+		8DD3034B21BAB305006012A8 /* AccountCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3033621BAB305006012A8 /* AccountCurrencyViewController.swift */; };
+		8DD3034E21BAB305006012A8 /* AccountNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3033921BAB305006012A8 /* AccountNameViewController.swift */; };
+		8DD3034F21BAB305006012A8 /* TransactionAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3033B21BAB305006012A8 /* TransactionAccountsViewController.swift */; };
+		8DD3035021BAB305006012A8 /* TransactionDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3033C21BAB305006012A8 /* TransactionDateViewController.swift */; };
+		8DD3035121BAB305006012A8 /* TransactionCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3033D21BAB305006012A8 /* TransactionCategoriesViewController.swift */; };
+		8DD3035221BAB305006012A8 /* TransactionAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3033E21BAB305006012A8 /* TransactionAmountViewController.swift */; };
+		8DD3035421BAB305006012A8 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3034021BAB305006012A8 /* TransactionViewController.swift */; };
+		8DD3035521BAB305006012A8 /* TransactionsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3034121BAB305006012A8 /* TransactionsListViewController.swift */; };
+		8DD3035721BAB305006012A8 /* AddTransferRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3034421BAB305006012A8 /* AddTransferRateViewController.swift */; };
+		8DD3035821BAB305006012A8 /* AddTransferAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3034521BAB305006012A8 /* AddTransferAccountViewController.swift */; };
+		8DD3035921BAB305006012A8 /* AddTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3034621BAB305006012A8 /* AddTransferViewController.swift */; };
+		8DD3035A21BAB305006012A8 /* AddTransferCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3034721BAB305006012A8 /* AddTransferCommentViewController.swift */; };
+		8DD3035B21BAB305006012A8 /* AddTransferAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3034821BAB305006012A8 /* AddTransferAmountViewController.swift */; };
+		8DD3035C21BAB305006012A8 /* AddTransferDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD3034921BAB305006012A8 /* AddTransferDateViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8D5003DE21BBE0570084930E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD3031021BAB1C8006012A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5003D221BBE0560084930E;
+			remoteInfo = "PennyWise Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D5003E421BBE0570084930E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8D5003E021BBE0570084930E /* PennyWise Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8D006082223161DD00D46C58 /* CustomWidgetClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWidgetClasses.swift; sourceTree = "<group>"; };
+		8D1D85512243D8A1001C1674 /* TransactionCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCommentViewController.swift; sourceTree = "<group>"; };
+		8D5003D321BBE0560084930E /* PennyWise Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PennyWise Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5003D521BBE0570084930E /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		8D5003D821BBE0570084930E /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		8D5003DD21BBE0570084930E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5003EC21BCFF5A0084930E /* PennyWise Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PennyWise Widget.entitlements"; sourceTree = "<group>"; };
+		8D5003ED21BCFF8E0084930E /* PennyWise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PennyWise.entitlements; sourceTree = "<group>"; };
+		8D58896D22357DD500A26391 /* TransactionCategoryAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategoryAddViewController.swift; sourceTree = "<group>"; };
+		8D99B4C9223FD002001B87A7 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		8D99B4CB223FD452001B87A7 /* AccountOpeningBalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOpeningBalanceViewController.swift; sourceTree = "<group>"; };
 		8DD3031821BAB1C8006012A8 /* PennyWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennyWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD3031B21BAB1C8006012A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DD3031D21BAB1C8006012A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DD3031D21BAB1C8006012A8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8DD3032021BAB1C8006012A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DD3032321BAB1C8006012A8 /* PennyWise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PennyWise.xcdatamodel; sourceTree = "<group>"; };
 		8DD3032521BAB1CA006012A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DD3032821BAB1CA006012A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DD3032A21BAB1CA006012A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD3033021BAB27E006012A8 /* CustomClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClasses.swift; sourceTree = "<group>"; };
+		8DD3033221BAB2A7006012A8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8DD3033521BAB305006012A8 /* AccountsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsListViewController.swift; sourceTree = "<group>"; };
+		8DD3033621BAB305006012A8 /* AccountCurrencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCurrencyViewController.swift; sourceTree = "<group>"; };
+		8DD3033921BAB305006012A8 /* AccountNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountNameViewController.swift; sourceTree = "<group>"; };
+		8DD3033B21BAB305006012A8 /* TransactionAccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionAccountsViewController.swift; sourceTree = "<group>"; };
+		8DD3033C21BAB305006012A8 /* TransactionDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDateViewController.swift; sourceTree = "<group>"; };
+		8DD3033D21BAB305006012A8 /* TransactionCategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCategoriesViewController.swift; sourceTree = "<group>"; };
+		8DD3033E21BAB305006012A8 /* TransactionAmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionAmountViewController.swift; sourceTree = "<group>"; };
+		8DD3034021BAB305006012A8 /* TransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		8DD3034121BAB305006012A8 /* TransactionsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsListViewController.swift; sourceTree = "<group>"; };
+		8DD3034421BAB305006012A8 /* AddTransferRateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransferRateViewController.swift; sourceTree = "<group>"; };
+		8DD3034521BAB305006012A8 /* AddTransferAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransferAccountViewController.swift; sourceTree = "<group>"; };
+		8DD3034621BAB305006012A8 /* AddTransferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransferViewController.swift; sourceTree = "<group>"; };
+		8DD3034721BAB305006012A8 /* AddTransferCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransferCommentViewController.swift; sourceTree = "<group>"; };
+		8DD3034821BAB305006012A8 /* AddTransferAmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransferAmountViewController.swift; sourceTree = "<group>"; };
+		8DD3034921BAB305006012A8 /* AddTransferDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransferDateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8D5003D021BBE0560084930E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5003D621BBE0570084930E /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD3031521BAB1C8006012A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +124,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D5003D421BBE0560084930E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D5003D521BBE0570084930E /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D5003D721BBE0570084930E /* PennyWise Widget */ = {
+			isa = PBXGroup;
+			children = (
+				8D5003EC21BCFF5A0084930E /* PennyWise Widget.entitlements */,
+				8D5003D821BBE0570084930E /* TodayViewController.swift */,
+				8D006082223161DD00D46C58 /* CustomWidgetClasses.swift */,
+				8D5003DD21BBE0570084930E /* Info.plist */,
+			);
+			path = "PennyWise Widget";
+			sourceTree = "<group>";
+		};
 		8DD3030F21BAB1C8006012A8 = {
 			isa = PBXGroup;
 			children = (
 				8DD3031A21BAB1C8006012A8 /* PennyWise */,
+				8D5003D721BBE0570084930E /* PennyWise Widget */,
+				8D5003D421BBE0560084930E /* Frameworks */,
 				8DD3031921BAB1C8006012A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				8DD3031821BAB1C8006012A8 /* PennyWise.app */,
+				8D5003D321BBE0560084930E /* PennyWise Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,8 +165,14 @@
 		8DD3031A21BAB1C8006012A8 /* PennyWise */ = {
 			isa = PBXGroup;
 			children = (
+				8D5003ED21BCFF8E0084930E /* PennyWise.entitlements */,
+				8DD3031D21BAB1C8006012A8 /* MainViewController.swift */,
+				8DD3033021BAB27E006012A8 /* CustomClasses.swift */,
+				8DD3033221BAB2A7006012A8 /* CoreDataManager.swift */,
+				8DD3033421BAB305006012A8 /* AccountViewControllers */,
+				8DD3033A21BAB305006012A8 /* TransactionsViewControllers */,
+				8DD3034321BAB305006012A8 /* TransferViewControllers */,
 				8DD3031B21BAB1C8006012A8 /* AppDelegate.swift */,
-				8DD3031D21BAB1C8006012A8 /* ViewController.swift */,
 				8DD3031F21BAB1C8006012A8 /* Main.storyboard */,
 				8DD3032521BAB1CA006012A8 /* Assets.xcassets */,
 				8DD3032721BAB1CA006012A8 /* LaunchScreen.storyboard */,
@@ -67,9 +182,66 @@
 			path = PennyWise;
 			sourceTree = "<group>";
 		};
+		8DD3033421BAB305006012A8 /* AccountViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D99B4C9223FD002001B87A7 /* AccountViewController.swift */,
+				8DD3033521BAB305006012A8 /* AccountsListViewController.swift */,
+				8DD3033621BAB305006012A8 /* AccountCurrencyViewController.swift */,
+				8D99B4CB223FD452001B87A7 /* AccountOpeningBalanceViewController.swift */,
+				8DD3033921BAB305006012A8 /* AccountNameViewController.swift */,
+			);
+			path = AccountViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		8DD3033A21BAB305006012A8 /* TransactionsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DD3034121BAB305006012A8 /* TransactionsListViewController.swift */,
+				8DD3034021BAB305006012A8 /* TransactionViewController.swift */,
+				8DD3033B21BAB305006012A8 /* TransactionAccountsViewController.swift */,
+				8DD3033C21BAB305006012A8 /* TransactionDateViewController.swift */,
+				8DD3033D21BAB305006012A8 /* TransactionCategoriesViewController.swift */,
+				8D58896D22357DD500A26391 /* TransactionCategoryAddViewController.swift */,
+				8DD3033E21BAB305006012A8 /* TransactionAmountViewController.swift */,
+				8D1D85512243D8A1001C1674 /* TransactionCommentViewController.swift */,
+			);
+			path = TransactionsViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		8DD3034321BAB305006012A8 /* TransferViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DD3034621BAB305006012A8 /* AddTransferViewController.swift */,
+				8DD3034421BAB305006012A8 /* AddTransferRateViewController.swift */,
+				8DD3034521BAB305006012A8 /* AddTransferAccountViewController.swift */,
+				8DD3034721BAB305006012A8 /* AddTransferCommentViewController.swift */,
+				8DD3034821BAB305006012A8 /* AddTransferAmountViewController.swift */,
+				8DD3034921BAB305006012A8 /* AddTransferDateViewController.swift */,
+			);
+			path = TransferViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8D5003D221BBE0560084930E /* PennyWise Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5003E321BBE0570084930E /* Build configuration list for PBXNativeTarget "PennyWise Widget" */;
+			buildPhases = (
+				8D5003CF21BBE0560084930E /* Sources */,
+				8D5003D021BBE0560084930E /* Frameworks */,
+				8D5003D121BBE0560084930E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PennyWise Widget";
+			productName = "PennyWise Widget";
+			productReference = 8D5003D321BBE0560084930E /* PennyWise Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		8DD3031721BAB1C8006012A8 /* PennyWise */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DD3032D21BAB1CA006012A8 /* Build configuration list for PBXNativeTarget "PennyWise" */;
@@ -77,10 +249,12 @@
 				8DD3031421BAB1C8006012A8 /* Sources */,
 				8DD3031521BAB1C8006012A8 /* Frameworks */,
 				8DD3031621BAB1C8006012A8 /* Resources */,
+				8D5003E421BBE0570084930E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8D5003DF21BBE0570084930E /* PBXTargetDependency */,
 			);
 			name = PennyWise;
 			productName = PennyWise;
@@ -97,8 +271,23 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Ghulam Hasnain";
 				TargetAttributes = {
+					8D5003D221BBE0560084930E = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1140;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					8DD3031721BAB1C8006012A8 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1140;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -116,11 +305,19 @@
 			projectRoot = "";
 			targets = (
 				8DD3031721BAB1C8006012A8 /* PennyWise */,
+				8D5003D221BBE0560084930E /* PennyWise Widget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8D5003D121BBE0560084930E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD3031621BAB1C8006012A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,17 +331,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8D5003CF21BBE0560084930E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5003E521BCFA880084930E /* PennyWise.xcdatamodeld in Sources */,
+				8D006083223161DD00D46C58 /* CustomWidgetClasses.swift in Sources */,
+				8D5003E721BCFAB30084930E /* CustomClasses.swift in Sources */,
+				8D379D8321C3FAE600706147 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD3031421BAB1C8006012A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD3031E21BAB1C8006012A8 /* ViewController.swift in Sources */,
+				8DD3034A21BAB305006012A8 /* AccountsListViewController.swift in Sources */,
+				8D58896E22357DD500A26391 /* TransactionCategoryAddViewController.swift in Sources */,
+				8DD3035921BAB305006012A8 /* AddTransferViewController.swift in Sources */,
+				8DD3031E21BAB1C8006012A8 /* MainViewController.swift in Sources */,
 				8DD3032421BAB1C8006012A8 /* PennyWise.xcdatamodeld in Sources */,
+				8DD3034B21BAB305006012A8 /* AccountCurrencyViewController.swift in Sources */,
 				8DD3031C21BAB1C8006012A8 /* AppDelegate.swift in Sources */,
+				8DD3035021BAB305006012A8 /* TransactionDateViewController.swift in Sources */,
+				8DD3035B21BAB305006012A8 /* AddTransferAmountViewController.swift in Sources */,
+				8D1D85522243D8A1001C1674 /* TransactionCommentViewController.swift in Sources */,
+				8D99B4CC223FD452001B87A7 /* AccountOpeningBalanceViewController.swift in Sources */,
+				8DD3035821BAB305006012A8 /* AddTransferAccountViewController.swift in Sources */,
+				8DD3035A21BAB305006012A8 /* AddTransferCommentViewController.swift in Sources */,
+				8DD3033321BAB2A7006012A8 /* CoreDataManager.swift in Sources */,
+				8DD3035521BAB305006012A8 /* TransactionsListViewController.swift in Sources */,
+				8DD3033121BAB27E006012A8 /* CustomClasses.swift in Sources */,
+				8DD3034E21BAB305006012A8 /* AccountNameViewController.swift in Sources */,
+				8DD3035C21BAB305006012A8 /* AddTransferDateViewController.swift in Sources */,
+				8DD3035121BAB305006012A8 /* TransactionCategoriesViewController.swift in Sources */,
+				8DD3034F21BAB305006012A8 /* TransactionAccountsViewController.swift in Sources */,
+				8DD3035221BAB305006012A8 /* TransactionAmountViewController.swift in Sources */,
+				8D99B4CA223FD002001B87A7 /* AccountViewController.swift in Sources */,
+				8DD3035721BAB305006012A8 /* AddTransferRateViewController.swift in Sources */,
+				8DD3035421BAB305006012A8 /* TransactionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D5003DF21BBE0570084930E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5003D221BBE0560084930E /* PennyWise Widget */;
+			targetProxy = 8D5003DE21BBE0570084930E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8DD3031F21BAB1C8006012A8 /* Main.storyboard */ = {
@@ -166,6 +403,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8D5003E121BBE0570084930E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PennyWise Widget/PennyWise Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G38GJZAKV;
+				INFOPLIST_FILE = "PennyWise Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GH.PennyWise2.PennyWise-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D5003E221BBE0570084930E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PennyWise Widget/PennyWise Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G38GJZAKV;
+				INFOPLIST_FILE = "PennyWise Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GH.PennyWise2.PennyWise-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8DD3032B21BAB1CA006012A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -285,7 +562,9 @@
 		8DD3032E21BAB1CA006012A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PennyWise/PennyWise.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3G38GJZAKV;
 				INFOPLIST_FILE = PennyWise/Info.plist;
@@ -293,9 +572,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = GH.PennyWise;
+				PRODUCT_BUNDLE_IDENTIFIER = GH.PennyWise2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -303,7 +582,9 @@
 		8DD3032F21BAB1CA006012A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PennyWise/PennyWise.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3G38GJZAKV;
 				INFOPLIST_FILE = PennyWise/Info.plist;
@@ -311,9 +592,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = GH.PennyWise;
+				PRODUCT_BUNDLE_IDENTIFIER = GH.PennyWise2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -321,6 +602,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8D5003E321BBE0570084930E /* Build configuration list for PBXNativeTarget "PennyWise Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5003E121BBE0570084930E /* Debug */,
+				8D5003E221BBE0570084930E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8DD3031321BAB1C8006012A8 /* Build configuration list for PBXProject "PennyWise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
